@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas
-app.use('/api/reseñas', reseñasRoutes);
+app.use('/api/resenas', reseñasRoutes);
 
 // Puerto
 const PORT = process.env.PORT || 3000;
